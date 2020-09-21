@@ -87,3 +87,9 @@ a:hover{
 a:visited{
    color: #5ba37f;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
