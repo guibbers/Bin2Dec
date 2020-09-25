@@ -20,7 +20,7 @@ bin.addEventListener('keyup', function(e){
 
 submit.addEventListener('click', function(){
    let binary = document.querySelector('#bin').value;
-   if(binary == ''){
+   if(binary == false){
       res.innerHTML = 'Not a valid number!'
    } else {
    let digit = parseInt(binary, 2);   

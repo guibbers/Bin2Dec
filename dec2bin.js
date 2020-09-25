@@ -11,7 +11,7 @@ bin.addEventListener('keyup', function(e){
 
 submit.addEventListener('click', function(){
    let num = document.querySelector('#bin').value;   
-   if(num == '') {
+   if(num == false) {
       res.innerHTML = 'Not a valid number!'
    } else {
       num = parseInt(num);
