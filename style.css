@@ -33,6 +33,12 @@ h1{
    font-size: 3.5rem;
 }
 
+main {
+   display:flex;
+   justify-content: center;
+   width: 100%;
+}
+
 section#container {
    align-items: center;
    background-color: azure;
